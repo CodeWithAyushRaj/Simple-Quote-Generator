@@ -1,5 +1,5 @@
  // made by ayush
- const quotes = [
+ const ayush = [
     "The only way to do great work is to love what you do. - Steve Jobs",
     "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll",
     "Believe you can and you're halfway there. - Theodore Roosevelt",
@@ -14,6 +14,10 @@
     "The only person you are destined to become is the person you decide to be. - Ralph Waldo Emerson",
     "In the middle of difficulty lies opportunity. - Albert Einstein",
     "The journey of a thousand miles begins with one step. - Lao Tzu",
+    "Devanshu , Raghib , Abhinav , ansh  , mubbashir , antriskh are my friends - Ayush R." ,
+    "Devanshu , Raghib , Abhinav , ansh  , mubbashir , antriskh are my friends - Ayush R." ,
+    "Devanshu , Raghib , Abhinav , ansh  , mubbashir , antriskh are my friends - Ayush R." ,
+    "Devanshu , Raghib , Abhinav , ansh  , mubbashir , antriskh are my friends - Ayush R." ,
     "I have not failed. I've just found 10,000 ways that won't work. - Thomas A. Edison",
     "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
     "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
@@ -73,11 +77,12 @@
     "I have not failed. I've just found 10,000 ways that won't work. - Thomas A. Edison",
     "Don't watch the clock; do what it does. Keep going. - Sam",
         ];
+      
   
   
         function generateQuote() {
-            const randomNumber = Math.floor(Math.random() * quotes.length);
+            const randomNumber = Math.floor(Math.random() * ayush.length);
             const quoteElement = document.getElementById('quote');
-            quoteElement.textContent = quotes[randomNumber];
+            quoteElement.textContent = ayush[randomNumber];
           }
  
